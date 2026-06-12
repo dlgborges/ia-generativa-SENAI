@@ -32,3 +32,6 @@ celsius = st.number_input('Degrees in Celsius: ')
 if st.button('Convert Celsius to Fahrenheit'):
     celsius_fahrenheit = (celsius*1.8)+32
     st.success(celsius_fahrenheit)
+
+# password generator
+
