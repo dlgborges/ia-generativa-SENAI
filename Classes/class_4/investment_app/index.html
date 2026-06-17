@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Análise de Investimento Inteligente</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Análise de Investimento</h1>
+        <p>Insira o nome ou ticker da empresa para uma análise técnica simplificada.</p>
+        
+        <input type="text" id="tickerInput" placeholder="Ex: PETR4, AAPL, VALE3">
+        <button onclick="analisar()">Analisar Empresa</button>
+
+        <div id="resultado" class="hidden">
+            <h2 id="status"></h2>
+            <p id="explicacao"></p>
+            <div id="alternativas"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

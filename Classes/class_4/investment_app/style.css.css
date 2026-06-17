@@ -1,0 +1,9 @@
+body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f9; color: #2c3e50; line-height: 1.6; }
+.container { max-width: 600px; margin: 50px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #bdc3c7; border-radius: 4px; box-sizing: border-box; }
+button { width: 100%; padding: 12px; background-color: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background-color: #3498db; }
+.hidden { display: none; }
+#resultado { margin-top: 20px; padding-top: 20px; border-top: 2px solid #ecf0f1; }
+.alerta { color: #c0392b; font-weight: bold; }
+.sucesso { color: #27ae60; font-weight: bold; }
